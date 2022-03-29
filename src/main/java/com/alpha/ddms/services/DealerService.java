@@ -12,5 +12,7 @@ public class DealerService {
     @Autowired
     DealerRepository dealerRepository;
 
+    public void  saveDealer (String dealerId,String dealerName, String dealerClass, String telpNumber,String alamat, String dealerExtCode, String  dealerStatus){
 
+    }
 }
